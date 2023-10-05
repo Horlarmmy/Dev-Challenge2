@@ -12,7 +12,7 @@ module.exports = {
     },
     mumbai: {
       // If you're using local testnet, replace `url` with local json-rpc address 
-      url: "https://rpc-mumbai.maticvigil.com/",
+      url: "https://polygon-mumbai-bor.publicnode.com/",
       accounts: [`0x` + `${process.env.PRIVATE_KEY}`],
     },
   },

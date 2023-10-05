@@ -8,10 +8,9 @@ contract Greeting {
 
     /**
      * @dev Constructor is used to set the initial greeting for the contract
-     * @param _greeting: The greeting to be associated to the greeting variable
      */
-    constructor(string memory _greeting) payable{
-        greeting = _greeting;
+    constructor() {
+        greeting = "Hello World!!!";
     }
 
     /**

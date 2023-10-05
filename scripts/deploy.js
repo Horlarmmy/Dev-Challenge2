@@ -1,7 +1,8 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const Greeting = await ethers.deployContract("Greeting", ["Hello World!!!"]);
+  const Greeting = await ethers.deployContract("Greeting", []);
+  console.log("Here")
   await Greeting.deployed();
 
   console.log(`Greeting Contract was deployed to ${Greeting.address}`);
@@ -15,5 +16,5 @@ main().catch((error) => {
 });
 
 
-// mumbai - 0x2ee311f666e18fD03b9b524d81b3053B5b182043
-// swiss - 0x46Ae818CC50F3c524D0c8aa5Aa2907590A5F7d0c
+// mumbai - const mumbaiContractAddr = "0xCd7d564e7a5BC540e1dbE9Fb55818da4D3580a59";
+// swiss - 0x3F042A7cd5f7dE394bc74a1310E3BcF2eBB9Ac3C
