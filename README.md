@@ -61,7 +61,7 @@ You should get a similar response:
 Getting Storage slot from Mumbai:
 0x48656c6c6f20576f726c6421212100000000000000000000000000000000001c
 Data type is:  string
-Hello World!!!
+Decoded Data: Hello World!!!
 Getting Storage slot from Swisstronik:
 0x1ac0a946c50b5a6cbdaef7d0a457a3a6c8ab0b5ac89407eccee3f83d2d50aaa8
 Data type is:  string

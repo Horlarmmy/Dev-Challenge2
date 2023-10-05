@@ -17,7 +17,7 @@ const getMessageWithProvider = async (provider, providerName, contractAddr) => {
     console.log(message);
     console.log('Data type is: ', typeof (message));
     const decodedString = ethers.utils.toUtf8String(message)
-    console.log(decodedString)
+    console.log('Decoded Data:', decodedString)
   } catch (error) {
     console.error(error);
   }
